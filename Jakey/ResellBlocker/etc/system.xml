@@ -1,0 +1,65 @@
+<?xml version='1.0' ?>
+<config>
+    <tabs>
+        <jakey_resellblocker translate="label">
+            <label>Resell Blocker</label>
+            <sort_order>200</sort_order>
+            <class>jakey</class>
+        </jakey_resellblocker>
+    </tabs>
+    <sections>
+        <jakeysell translate="label">
+            <label>Blocker Settings</label>
+            <tab>jakey_resellblocker</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <spentCap translate="label">
+                            <label>Total Spent Limit:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </spentCap>
+                        <totDays translate="label">
+                            <label>Time Frame(Days):</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>200</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </totDays>
+                        <noteDays translate="label">
+                            <label>Days Until Notification:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>200</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </noteDays>
+                        <serviceEmail translate="label">
+                            <label>Customer Service Email:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>400</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </serviceEmail>
+                    </fields>
+                </general>
+            </groups>
+        </jakeysell>
+    </sections>
+</config>
