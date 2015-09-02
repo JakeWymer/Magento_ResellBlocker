@@ -3,7 +3,8 @@ A magento module that allows you to set a spending cap per customer within a cer
 
 INSTALLATION:
 
-Copy the 'Jakey' folder to /magento/app/code/local/
+Copy the 'Jakey' folder to /magento/app/code/community/
+
 Then copy 'Jakey_ResellBlocker.xml' to /magento/app/etc/modules/
 
 Flush the magento cache and you should have a resell blocker tab in the admin system config.
